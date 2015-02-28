@@ -1,4 +1,4 @@
-define(['backbone','views/single'], function (Backbone,SingleView){
+define(['backbone','views/single'], function (Backbone, SingleView){
 
 	var View = Backbone.View.extend({
 		tagName:'ul',

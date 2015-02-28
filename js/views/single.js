@@ -1,9 +1,10 @@
-define(['backbone','text!templates/template.html','handlebars'], function (Backbone,tpl,Handlebars){
+define(['backbone','text!templates/template.html','handlebars'], function (Backbone, tpl, Handlebars){
 
 	var Info = Backbone.View.extend({
 		tagName:'li',
-		template: Handlebars.compile( $(tpl).html() ),
+		template: Handlebars.compile($(tpl).html()),
 		initialize:function(){
+			console.log(this);
 			this.data = this.model.toJSON();			
 		},
 		render:function(){		// notice the render is being called elsewhere (in the collection view)

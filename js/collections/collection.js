@@ -2,7 +2,7 @@ define(['backbone','models/model'], function (Backbone, Model){
 
 	var ModelCollection = Backbone.Collection.extend({
 		model: Model,
-		url:'*.json'
+		url:'custom.json'
 	})
 	return ModelCollection;
 })

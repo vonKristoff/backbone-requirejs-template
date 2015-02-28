@@ -4,7 +4,7 @@
   "dependencies": {
   	"backbone":"*",
   	"backbone.localStorage": "*",
-    "jquery":"*",
+    "jquery":"2.1.2",
     "requirejs":"*",
     "underscore":"*",
     "handlebars":"*",

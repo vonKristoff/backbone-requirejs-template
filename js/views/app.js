@@ -1,4 +1,4 @@
-define(['backbone','collections/collection','views/view','router'], function (Backbone,Collection,View,Router) {
+define(['backbone','collections/collection','views/main_view','router'], function (Backbone,Collection,View,Router) {
 
 	var AppView = Backbone.View.extend({
 		el:'body',
